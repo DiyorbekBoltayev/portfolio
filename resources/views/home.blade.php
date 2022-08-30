@@ -19,6 +19,26 @@
     />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{asset('assets/css/styles.css')}}" />
+    <style>
+        body{
+       background:#0b132a ;
+            color: white ;
+        }
+        .tebranuvchi {
+            -webkit-animation: action 1.7s infinite  alternate;
+            animation: action 1.7s infinite  alternate;
+        }
+
+        @-webkit-keyframes action {
+            0% { transform: translateY(-30px); }
+            100% { transform: translateY(0px); }
+        }
+
+        @keyframes action {
+            0% { transform: translateY(-30px); }
+            100% { transform: translateY(0px); }
+        }
+    </style>
 @endsection
 @section('content')
 
@@ -66,7 +86,7 @@
                 </p>
                 <a href="#" class="btn">Hire Me</a>
             </div>
-            <div class="col">
+            <div class="col tebranuvchi">
                 <img src="{{asset('assets/./images/Programmer-1.svg')}}" alt="" />
             </div>
         </div>
@@ -116,7 +136,7 @@
 <section class="section about about-1" id="about">
     <h2 class="title">Our Top Priorities</h2>
     <div class="row container">
-        <div class="col">
+        <div class="col tebranuvchi">
             <img class="image" src="{{asset('assets/./images/Programmer-2.svg')}}" alt="" />
         </div>
         <div class="col">
@@ -150,7 +170,7 @@
 <!-- About #2 -->
 <section class="section about about-2">
     <div class="row container">
-        <div class="col">
+        <div class="col tebranuvchi">
             <img class="image" src="{{asset('assets/./images/Programmer-3.svg')}}" alt="" />
         </div>
         <div class="col">
