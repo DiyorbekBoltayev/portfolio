@@ -25,19 +25,24 @@
             color: white ;
         }
         .tebranuvchi {
-            -webkit-animation: action 1.7s infinite  alternate;
-            animation: action 1.7s infinite  alternate;
+            -webkit-animation: action 3s infinite  alternate;
+            animation: action 3s infinite  alternate;
         }
 
         @-webkit-keyframes action {
-            0% { transform: translateY(-30px); }
-            100% { transform: translateY(0px); }
+            0% { transform: translateY(-15px); }
+            100% { transform: translateY(15px); }
         }
 
         @keyframes action {
-            0% { transform: translateY(-30px); }
-            100% { transform: translateY(0px); }
+            0% { transform: translateY(-15px); }
+            100% { transform: translateY(15px); }
         }
+        h1,h2,h3,h4,h5,h6{
+            color: white;
+        }
+
+
     </style>
 @endsection
 @section('content')
@@ -207,7 +212,10 @@
     <div class="row container">
         <div class="image">
             <div class="circle circle-1"></div>
-            <img src="{{asset('assets/./images/iPhone X.png')}}" alt="" />
+            <div class="w-100">
+                <img class="w-50 tebranuvchi" style="margin-left: 10%" src="{{asset('assets/./images/about_hero.png')}}" alt="" />
+            </div>
+
             <div class="circle circle-2">
                 <div class="language language-1">
                     <div>
@@ -217,10 +225,10 @@
                             Condimentum diam
                         </p>
                     </div>
-                    <div class="icon">{ }</div>
+                    <div class="icon" style="background: #14c073">HTML</div>
                 </div>
                 <div class="language language-2">
-                    <div class="icon">C++</div>
+                    <div class="icon" style="background: #7b097b">MySQL</div>
                     <div>
                         <h4>Heading</h4>
                         <p>
@@ -230,7 +238,7 @@
                     </div>
                 </div>
                 <div class="language language-3">
-                    <div class="icon">C#</div>
+                    <div class="icon" style="background: #f9322c">Laravel</div>
                     <div>
                         <h4>Heading</h4>
                         <p>
@@ -250,7 +258,7 @@
                     <div class="icon">CSS</div>
                 </div>
                 <div class="language language-5">
-                    <div class="icon">PHP</div>
+                    <div class="icon" style="background: #2053e5">PHP</div>
                     <div>
                         <h4>Heading</h4>
                         <p>
@@ -267,13 +275,12 @@
                             Condimentum diam
                         </p>
                     </div>
-                    <div class="icon">JAVA</div>
+                    <div class="icon" style="background: yellow; color :black">JS</div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
 <!-- Testimonials -->
 <section class="section testimonials">
     <div class="top">
