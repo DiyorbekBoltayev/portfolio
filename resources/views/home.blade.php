@@ -1,6 +1,7 @@
 @extends('layouts.app')
 @section('custom-style')
     <title>Diyorbek Boltayev</title>
+{{--    test for cpanel--}}
     <link
         rel="shortcut icon"
         href="{{asset('assets/./images/favicon.png')}}"
@@ -78,7 +79,7 @@
         <div class="row container">
             <div class="col">
                 <h1>
-                    Hye! I’m <span>Edem.</span> <br />
+                    Hye! I’m <span>Diyorbek.</span> <br />
                     Youtuber, Web Developer.
                 </h1>
 
