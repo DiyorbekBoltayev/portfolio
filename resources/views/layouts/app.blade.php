@@ -10,6 +10,8 @@
     <meta property="og:title" content="Dasturchi">
     <meta property="og:description" content="Batafsil ma'lumot uchun saytga tashrif buyuring">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="https://diyorbekboltayev.uz/assets/images/Programmer-1.svg" />
+    <meta property="og:image:secure_url" content="https://diyorbekboltayev.uz/assets/images/Programmer-1.svg" />
     <meta property="og:url" content="http://diyorbekboltayev.uz">
     <meta property="og:site_name" content="Diyorbek Boltayev">
 
