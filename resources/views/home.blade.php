@@ -79,7 +79,7 @@
         <div class="row container">
             <div class="col">
                 <h1>
-                    Mening ismim <span>Diyorbek.</span> <br />
+                    Dasturchi <span>Diyorbek.</span> <br />
 
                 </h1>
 
