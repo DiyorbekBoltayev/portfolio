@@ -83,7 +83,7 @@
 
                 </h1>
 
-                <p style="text-shadow: 0px 0px 10px 10px white; color: yellow;">
+                <p style="text-shadow: 0px 0px 10px 10px white; color: yellow; margin: 100px;">
                     <span>Web</span> provides free HTML, CSS and Javascript
                     tutorials along with practical examples. Improve your skills with
                     our coding-based challenges including quizzes, multiple-choice
