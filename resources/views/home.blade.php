@@ -79,12 +79,12 @@
         <div class="row container">
             <div class="col">
                 <h1>
-                    Hye! I’m <span>Diyorbek.</span> <br />
-                    Youtuber, Web Developer.
+                    Mening ismim <span>Diyorbek.</span> <br />
+
                 </h1>
 
-                <p>
-                    <span>wpcodevo</span> provides free HTML, CSS and Javascript
+                <p style="text-shadow: 0px 0px 1px 2px white">
+                    <span>S</span> provides free HTML, CSS and Javascript
                     tutorials along with practical examples. Improve your skills with
                     our coding-based challenges including quizzes, multiple-choice
                     questions. Stay Updated with web development tricks, tips,
