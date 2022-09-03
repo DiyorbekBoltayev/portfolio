@@ -214,7 +214,7 @@
         <div class="image">
             <div class="circle circle-1"></div>
             <div class="w-100">
-                <img class="w-50 tebranuvchi" style="margin-left: 10% ; width: 70%; height: 70%;" src="{{asset('assets/./images/about_hero.png')}}" alt="" />
+                <img class="w-50 tebranuvchi" style="margin-left: 10% ; width: 60%; height: 60%;" src="{{asset('assets/./images/about_hero.png')}}" alt="" />
             </div>
 
             <div class="circle circle-2">
