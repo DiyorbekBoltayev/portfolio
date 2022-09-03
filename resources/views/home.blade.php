@@ -100,12 +100,10 @@
 
     <!-- Social Icons -->
     <div class="icons">
-        <div class="icon" style=" box-shadow: 0px 0px 3px 3px #60609e;">
-            <i class="bx bxl-telegram"></i>
-        </div>
-        <div class="icon" style=" box-shadow: 0px 0px 3px 3px #60609e;"><i class="bx bxl-facebook"></i></div>
-        <div class="icon" style=" box-shadow: 0px 0px 3px 3px #60609e;"><i class="bx bxl-linkedin"></i></div>
-        <div class="icon" style=" box-shadow: 0px 0px 3px 3px #60609e;"><i class="bx bxl-github"></i></div>
+        <div class="icon" style=" box-shadow: 0px 0px 3px 3px #60609e;"><a href="https://github.com/DiyorbekBoltayev"><i class="bx bxl-github"></i></a></div>
+        <div class="icon" style=" box-shadow: 0px 0px 3px 3px #60609e;"><a href="https://t.me/Diyorbek_Boltayev"><i class="bx bxl-telegram"></i></a></div>
+        <div class="icon" style=" box-shadow: 0px 0px 3px 3px #60609e;"><a href="https://uz.linkedin.com/in/diyorbek-boltayev-7653a5244"><i class="bx bxl-linkedin"></i></a></div>
+        <div class="icon" style=" box-shadow: 0px 0px 3px 3px #60609e;"><a href="https://www.facebook.com/AmuSoft"><i class="bx bxl-facebook"></i></a></div>
     </div>
 </header>
 
